@@ -1,0 +1,30 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 70%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: black; PADDING-TOP: 0px; FONT-FAMILY: "Lucida Grande","Lucida Sans Unicode",arial,verdana,sans-serif; TEXT-ALIGN: center
+}
+A:link {
+	COLOR: rgb(150,0,0)
+}
+A:hover {
+	FONT-STYLE: italic
+}
+A:visited {
+	TEXT-DECORATION: underline
+}
+*#line4 {
+	TEXT-ALIGN: center
+}
+*#line5 {
+	TEXT-ALIGN: center
+}
+*#line6 {
+	MARGIN-LEFT: 20px; TEXT-ALIGN: left
+}
+*#line7 {
+	MARGIN-LEFT: 20px; TEXT-ALIGN: left
+}
+*#headers {
+	FLOAT: left; MARGIN-LEFT: 20px
+}
+*#content_recv {
+	FLOAT: right; MARGIN-RIGHT: 20px
+}

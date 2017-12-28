@@ -1,0 +1,34 @@
+<html><head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="author" content="hipernes">
+<meta name="keywords" content="hipernes,JPS,javascript,port,scan,scanner">
+<meta name="description" content="javascript port scanner">
+<meta name="robots" content="all"><title>Javascript Port Scannner</title>
+
+<script type="text/javascript" src="js/jsscan.js"></script>
+<style type="text/css" title="Style"> @import "style.css"; </style></head><body onload="init();">
+<br>
+<p align="center">Javascript port scanner .(c) hipernes 2009 </p>
+<form id="boton">
+<input id="scanh"   value=" scan hosts " onclick="scanhosts();" type="button"> 
+<input id="scanp"   value=" scan ports " onclick="scanports();" type="button"> 
+<input id="ping"    value=" ping host  " onclick="pinghost();" type="button"> 
+
+
+<input id="reset"   value="   reset   " onclick="resetdata();" type="button"> 
+<input id="reload"  value="  reload  " onclick="window.location.reload();" type="button"> 
+
+<input id="exit"    value="   exit   " onclick="window.close();" type="button">
+</form>
+<div id="line0"></div>
+<div id="line1"></div>
+<div id="networks"></div>
+<div id="line2"></div>
+<div id="line3"></div>
+<div id="info"><span id="line4"></span><span id="line5"></span></div>
+<div id="line6"></div>
+<div id="line7"></div>
+
+<br>
+</body></html>
